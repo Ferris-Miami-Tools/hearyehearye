@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Home from "./views/Home.vue";
-import Faculty from "./views/Faculty.vue";
-import Student from "./views/Student.vue";
-import Judge from "./views/Judge.vue";
-import NotFound from "./views/NotFound.vue";
+const Home = () => import("./views/Home.vue");
+const Faculty = () => import("./views/Faculty.vue");
+const Student = () => import("./views/Student.vue");
+const Judge = () => import("./views/Judge.vue");
+const NotFound = () => import("./views/NotFound.vue");
 
 import store from "./store";
 
