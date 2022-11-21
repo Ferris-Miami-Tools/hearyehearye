@@ -126,20 +126,20 @@
           prompt="Addressed the challenge"
           :fn="updateQuestionValue"
         >
-          If Key clients were to self-service more in digital channels (vs. calling or going to branches to conduct banking activity), how might this impact NPS and what might we do differently to drive the highest levels of NPS across all channels?
+          How might you use player performance data and other factors (player social media, club websites, hometown loyalty, etc.) to develop a predictive model of player value to drive attendance to FCC games?
         </score-selector>
         <score-selector
           property="q2"
           :value="judgeState.teamData.q2"
-          prompt="Developed a Compelling Argument"
+          prompt="Stated and supported a problem"
           :fn="updateQuestionValue"
         >
-          Did the team provide a convincing argument?<br />Did the team provide evidence to support and build their argument?
+          Did the team provide a clear problem to address?<br />Did the team provide evidence to support and develop their problem?
         </score-selector>
         <score-selector
           property="q3"
           :value="judgeState.teamData.q3"
-          prompt="Delivered a Professional Presentation"
+          prompt="Delivered a professional presentation"
           :fn="updateQuestionValue"
         >
           Did the team engage the audience?<br />Did the team deliver a professional presentation?<br />Did the team develop a compelling slide design?
@@ -147,10 +147,10 @@
         <score-selector
           property="q4"
           :value="judgeState.teamData.q4"
-          prompt="Compelling Solution / Idea"
+          prompt="Had a compelling model with clear factors"
           :fn="updateQuestionValue"
         >
-          How well did the team excite / move / convince you of their problem and solution? <br />New insights (based on what we saw last semester) <br />Did the team develop a solution with a “wow-factor”?  <br />Is there a novelty aspect to the team's idea? <br />What is the likelihood that KeyBank will find financial value from the proposed solution? <br />Did the team address feasibility in a way that shows potential? <br />Is this a team KeyBank would like to see present their solution?
+          Did the team provide insights from research and data?<br />Is there a novelty aspect to the team's model?<br />Did the team address how the model and factors could potentially increase attendance (with supportive evidence)?<br />What is the likelihood that FC Cincinnati will find the proposed model and accompanying factors feasible?
         </score-selector>
         <div>
           <label for="comments" class="text-xs tracking-wide text-gray-600">Comments for the team</label>

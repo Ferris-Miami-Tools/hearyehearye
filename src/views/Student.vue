@@ -62,15 +62,15 @@
           <td class="text-center" v-for="fb in teamData.feedback">{{ fb.q1 }}</td>
         </tr>
         <tr class="border-b">
-          <td class="py-1 px-2 font-medium border-r">Developed a Compelling Argument</td>
+          <td class="py-1 px-2 font-medium border-r">Stated and supported a problem</td>
           <td class="text-center" v-for="fb in teamData.feedback">{{ fb.q2 }}</td>
         </tr>
         <tr class="border-b">
-          <td class="py-1 px-2 font-medium border-r">Delivered a Professional Presentation</td>
+          <td class="py-1 px-2 font-medium border-r">Delivered a professional presentation</td>
           <td class="text-center" v-for="fb in teamData.feedback">{{ fb.q3 }}</td>
         </tr>
         <tr class="border-b">
-          <td class="py-1 px-2 font-medium border-r">Compelling Solution / Idea</td>
+          <td class="py-1 px-2 font-medium border-r">Had a compelling model with clear factors</td>
           <td class="text-center" v-for="fb in teamData.feedback">{{ fb.q4 }}</td>
         </tr>
       </tbody>
