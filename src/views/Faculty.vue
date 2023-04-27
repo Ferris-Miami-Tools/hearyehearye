@@ -24,6 +24,7 @@
     "I1", "I2", "I3", "I4", "I5", "I7", "I8", "I9", "I10", "I11", "I12",
     "J1", "J2", "J3", "J4", "J5", "J7", "J8", "J9", "J10", "J11",
     "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10", "K11", "K12",
+    "Eschwab", "FPinchot", "FSixu", "FTracey", "HBishen",
   ];
 
   const selectTeam = async () => {
